@@ -5,8 +5,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items:space-around;
-    //Gap:1px;
-    
     border:2px solid red;
     height: 400px;
     width: 400px;
@@ -23,7 +21,25 @@
 .cell  {
     flex:1; 
    border:1px solid blue;
-   background-color: green;
+   background-color: skyblue;
     box-sizing:border-box
     
 }
+
+
+//for etching function (not working)
+.content:hover button{
+    background-color: rgb(54, 54, 54);
+  }
+
+  button{
+font-size: 14px;
+background-color:gray;
+border: none; 
+border-radius: 5px;
+cursor: pointer;
+  }
+
+  .hovered {
+    background-color: rgba(54, 54, 54, 0.2);
+  }

@@ -1,5 +1,7 @@
 //get elements for event triggers
 const button = document.getElementById('button');
+
+
 //event listener for button
 button.addEventListener('click', Click);
 
@@ -7,18 +9,20 @@ button.addEventListener('click', Click);
 const contentDiv = document.querySelector(".content");
 const container = document.querySelector(".grid-Container");
 
+//create cells element for grid
 const cellDiv = document.createElement('div');
 cellDiv.classList.add('cell');
-
 const rowDiv = document.createElement('div');
 rowDiv.classList.add('row');
 
-let dim =10;
+let dim =10; //initial dimension value
 
-function Click(){
-    console.log("click")
-   
-    
+
+
+
+
+function Click(e){
+    console.log(e.target)
     generateGrid(getNumberInput())
 }
 

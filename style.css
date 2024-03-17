@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items:space-around;
-    Gap:1px;
+    //Gap:1px;
     
     border:2px solid red;
     height: 400px;
@@ -14,7 +14,7 @@
 
 .row  {
     display:flex;
-    gap: 1px;
+    //gap: 1px;
     flex:1; 
    // border:3px solid orange;
     box-sizing:border-box
@@ -22,9 +22,8 @@
 
 .cell  {
     flex:1; 
- 
-   border:3px solid blue;
-   // background-color: green;
+   border:1px solid blue;
+   background-color: green;
     box-sizing:border-box
     
 }
